@@ -1,0 +1,12 @@
+
+% use a model in express-model
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+var model = Models.use('yourModelName', function() {
+	this.someVariable_1 = 1;
+	this.someVariable_2 = 2;
+})
+response.render('yourViewName', model)
+\end{lstlisting}

@@ -1,0 +1,15 @@
+
+% use a model in express-model
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+var IssueSchema = new Db.Schema({
+	title: String,
+	type: Boolean,
+	content: String,
+	date: Date,
+	kanId: String,
+})
+IssueSchema.index({kan: 1})
+\end{lstlisting}

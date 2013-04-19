@@ -1,0 +1,16 @@
+
+% use a model in express-model
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+var KanSchema = new Db.Schema({
+	user: String,
+	name: String,
+	group: String,
+	tags: String,
+	description: String,
+	cover: String
+})
+KanSchema.index({name: 1, group: 1})
+\end{lstlisting}

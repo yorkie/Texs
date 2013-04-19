@@ -1,0 +1,14 @@
+
+% use a model in express-model
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+var UserSchema = new Db.Schema({
+	name: String,
+	email: String,
+	password: String,
+	role: String
+})
+UserSchema.index({ name: 1, role: 1 })
+\end{lstlisting}

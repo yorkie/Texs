@@ -1,0 +1,13 @@
+
+% create a model in express-model
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+Models.define('yourModelName', function(exports) {
+	exports.name = 'express-model 1.0'
+	exports.getName = function() {
+		return this.name
+	}
+})
+\end{lstlisting}

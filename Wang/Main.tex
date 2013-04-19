@@ -1,0 +1,65 @@
+% Start Paper
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{CJKutf8, makeidx, listings}
+
+\AtBeginDvi{\input{zhwinfonts}}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+
+% 命令
+\renewcommand{\abstractname}{摘要}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\linespread{2.0}
+
+\input{./_titlepage.tex}
+
+% 摘要
+\begin{abstract}
+	\input{./_abstract.tex}
+\end{abstract}
+
+% 第一章 背景
+\section{背景与意义}
+\input{./chapters/chap1.tex}
+
+% 第二章 开发平台介绍
+\section{开发平台介绍}
+\input{./chapters/chap2.tex}
+
+% 第三章 服务端架构细节
+\section{服务端架构细节}
+\input{./chapters/chap3.tex}
+
+% 第四章 前端架构细节
+\section{前端架构细节}
+\input{./chapters/chap4.tex}
+
+% 第五章 系统功能实现
+\section{系统功能实现}
+\input{./chapters/chap5.tex}
+
+% 第六章 核心功能实现
+\section{核心功能实现}
+\input{./chapters/chap6.tex}
+
+% 第七章 性能测试与分析
+\section{性能测试与分析}
+\input{./chapters/chap7.tex}
+
+% 第八章 总结
+\section{总结}
+\input{./chapters/chap8.tex}
+
+% 致谢
+\section{致谢}
+\indent
+Occupation
+
+\end{CJK*}
+\end{document}
+
+% End Paper

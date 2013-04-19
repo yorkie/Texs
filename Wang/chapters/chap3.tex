@@ -1,0 +1,59 @@
+% Chapter 服务端架构细节
+
+\subsection{NodeJS+MongoDB架构优势}
+\indent
+Occupation
+
+\subsection{模块对象设计}
+\indent
+由于使用的是基于ECMAScript262的NodeJS为基本开发语言，因此并没有传统面向对象中的类，但并不能说其不支持面向对象的特性。我基于Express.js开发了一个数据库连接工具——express-model，另外它也是一个建模工具，系统中所有的模型都被放在根目录下一个叫models的文件夹中，下面分别对其中的文件进行描述。
+
+\subsubsection{express-model}
+在描述对象模型之前，先来看看如何使用express-model，首先是更加仔细地对它进行一段描述：它为Express框架提供Model支持，可集成多种数据库(SQL \& NoSQL)，灵活性高的轻量级工具。 由于Express官方并未显式地提供Model支持，express-model不仅能有效嵌入Express Mvc中，还支持多种需要Model的场景。
+
+\clearpage
+
+\noindent
+\texttt{\large 创建一个Model：}
+\input{./codes/express-model/createModel.js.tex}
+~
+
+\noindent
+\texttt{\large 使用Model：}
+\input{./codes/express-model/useModel.js.tex}
+
+\subsubsection{user.js}
+
+\noindent
+\texttt{\large 其模型定义代码如下：}
+\input{./codes/express-model/user.js.tex}
+
+\subsubsection{groups.js}
+
+\noindent
+\texttt{\large 其模型定义代码如下：}
+\input{./codes/express-model/groups.js.tex}
+
+\subsubsection{kan.js}
+
+\noindent
+\texttt{\large 其模型定义代码如下：}
+\input{./codes/express-model/kan.js.tex}
+
+\subsubsection{issue.js}
+
+\noindent
+\texttt{\large 其模型定义代码如下：}
+\input{./codes/express-model/issue.js.tex}
+
+\subsection{数据库设计}
+\indent
+Occupation
+
+\subsection{服务器(组)选型}
+\indent
+Occupation
+
+\subsection{服务端架构图}
+\indent
+Occupation
