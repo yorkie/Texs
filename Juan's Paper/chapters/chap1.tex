@@ -51,8 +51,66 @@
 \paragraph{数据统计平台}
 同样为企业级用户量身定做，基于数据可视化技术为企业级用户快速、便捷地筛选出自己想要的信息。
 
-% ==========可行性分析=========================================================
+\subsubsection{性能需求}
+\begin{description}
+	\item[高并发] 互联网应用与生俱来的高并发性要求无疑是对程序设计的一大挑战，因此整个系统需要低成本地解决高并发的问题。
+	\item[数据安全] 系统应当保证用户能正常、稳定、安全地使用服务。
+\end{description}
 
-\subsection{可行性分析}
+\subsection{小结}
+根据以上需求分析，可以将系统划分为3个子模块，分为：用户/组管理、报刊发布与管理平台、阅读平台，如图1(Figure 1)。
+\par~
+
+\begin{figure}
+\begin{displaymath}
+	\xymatrix{
+	  			 && User/Group Management \\
+	  System \ar[ur] \ar[r] \ar[dr] && Publication Platform \\
+	  			 && Online Reader }
+\end{displaymath}
+\caption{系统模块分支}
+\end{figure}
+
 \indent
-Occupation
+用户/组管理包括用户认证、用户分组两个功能项目。一是用以保证系统进入以及操作的安全性，二是用以差异化用户，分别针对企业级用户与个人用户，设置相应的操作权限。相对应的：企业级用户有权使用报刊发布管理平台的资源，对其发布的报刊进行发布、添加、删除、修改等管理，而个人用户作为流量提供者，仅仅能使用阅读平台，来满足自己的阅读需求，同时贡献流量。
+\par~
+
+\indent
+报刊发布与管理平台包括较为复杂，首先需要详细说明一下报刊与用户之间的关系。
+\par~
+
+\begin{figure}
+	\centering
+		\includegraphics[width=0.8\textwidth]{./images/chap1-1.png}
+	\caption{报刊/用户关系图}
+\end{figure}
+
+\noindent
+对象Kan包含如下属性(Property)：
+\begin{description}
+	\item[name] 报刊名字
+	\item[user] 创建该报刊的企业或高级用户
+	\item[group] 该报刊所属的分类，如：综合、科技等
+	\item[tags] 创刊人为报刊添加的标签，用于更多元化的搜索
+	\item[cover] 报刊的封面图片
+	\item[description] 创刊人对该报刊的描述
+\end{description}
+\par~
+
+\noindent
+对象Issue包含如下属性(Property)
+\begin{description}
+	\item[title] 期刊的标题
+	\item[date]  期刊发布时间
+	\item[content] 期刊的内容
+	\item[kan] 所属的报刊
+\end{description}
+\par~
+
+\clearpage
+
+
+
+
+
+

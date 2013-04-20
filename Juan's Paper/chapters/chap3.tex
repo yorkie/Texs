@@ -9,9 +9,8 @@ Occupation
 由于使用的是基于ECMAScript262的NodeJS为基本开发语言，因此并没有传统面向对象中的类，但并不能说其不支持面向对象的特性。我基于Express.js开发了一个数据库连接工具——express-model，另外它也是一个建模工具，系统中所有的模型都被放在根目录下一个叫models的文件夹中，下面分别对其中的文件进行描述。
 
 \subsubsection{express-model}
-在描述对象模型之前，先来看看如何使用express-model，首先是更加仔细地对它进行一段描述：它为Express框架提供Model支持，可集成多种数据库(SQL \& NoSQL)，灵活性高的轻量级工具。 由于Express官方并未显式地提供Model支持，express-model不仅能有效嵌入Express Mvc中，还支持多种需要Model的场景。
-
-\clearpage
+在描述对象模型之前，先来看看如何使用express-model，首先是更加仔细地对它进行一段描述：它为Express框架提供Model支持，可集成多种数据库(SQL \& NoSQL)，灵活性高的轻量级工具。 由于Express官方并未显式地提供Model支持，express-model不仅能有效嵌入Express Mvc中，还支持多种需要Model的场景。模型作为MongoDB与Express的接口，实现了两端数据的同步功能。
+\par~
 
 \noindent
 \texttt{\large 创建一个Model：}
@@ -28,11 +27,23 @@ Occupation
 \texttt{\large 其模型定义代码如下：}
 \input{./codes/express-model/user.js.tex}
 
+\noindent
+user.js模型主要用于管理用户与组相关的操作。它提供了一些方法供http服务端请求调用：
+
+\begin{description}
+	\item[toJSON] 将users对象重新组合，转换为更适合前端请求的json形式；
+	\item[add] 用于注册新用户时，将请求的新用户数据同步到数据库服务器中；
+	\item[view\_homepage] 用于视图页homepage，为其提取相关的信息；
+\end{description}
+
 \subsubsection{groups.js}
 
 \noindent
 \texttt{\large 其模型定义代码如下：}
 \input{./codes/express-model/groups.js.tex}
+
+\noindent
+groups.js模型作为一个独立的集合(Collection)存储在数据库服务器中，提供了一个只读字符串数组。详细的数据库细节将在下一小节给出。
 
 \subsubsection{kan.js}
 
@@ -57,3 +68,6 @@ Occupation
 \subsection{服务端架构图}
 \indent
 Occupation
+
+
+\clearpage

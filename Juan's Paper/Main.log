@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 APR 2013 01:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 APR 2013 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,12 +250,130 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.8 <2012/05/24>
+ Copyright (c) 1991-2011 by Kristoffer H. Rose <krisrose@tug.org>
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen103
+\Y@c=\dimen104
+\U@c=\dimen105
+\D@c=\dimen106
+\L@c=\dimen107
+\R@c=\dimen108
+\Edge@c=\toks16
+\X@p=\dimen109
+\Y@p=\dimen110
+\U@p=\dimen111
+\D@p=\dimen112
+\L@p=\dimen113
+\R@p=\dimen114
+\Edge@p=\toks17
+\X@origin=\dimen115
+\Y@origin=\dimen116
+\X@xbase=\dimen117
+\Y@xbase=\dimen118
+\X@ybase=\dimen119
+\Y@ybase=\dimen120
+\X@min=\dimen121
+\Y@min=\dimen122
+\X@max=\dimen123
+\Y@max=\dimen124
+\lastobjectbox@=\box26
+\zerodotbox@=\box27
+\almostz@=\dimen125
+ direction,
+\d@X=\dimen126
+\d@Y=\dimen127
+\K@=\count87
+\KK@=\count88
+\Direction=\count89
+\K@dXdY=\dimen128
+\K@dYdX=\dimen129
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count90
+\quotPTK@=\dimen130
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks18
+\connectobjectbox@@=\box28
+ objects,
+\styletoks@=\toks19
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package: xy 2012/05/24 Xy-pic version 3.8.8
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count91
+\crvpts@=\toks20
+\splinebox@=\box29
+\splineval@=\dimen131
+\splinedepth@=\dimen132
+\splinetol@=\dimen133
+\splinelength@=\dimen134
+ circles,
+\L@=\dimen135
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.9 loaded) loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen136
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count92
+\Col=\count93
+\queue@=\toks21
+\queue@@=\toks22
+\qcount@=\count94
+\qcount@@=\count95
+\matrixsize@=\count96
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+Xy-pic pdf driver: `curve' extension support
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+Xy-pic pdf driver: `frame' extension support
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+Xy-pic pdf driver: `line' extension support
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+Xy-pic pdf driver: `rotate' extension support
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
+loaded)) (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks23
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -277,18 +395,14 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count97
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
 Package: CJKutf8 2012/05/07 4.8.3
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cjk/texinput/CJK.sty
 Package: CJK 2012/05/07 4.8.3
 
@@ -363,7 +477,7 @@ Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
 LaTeX Info: Redefining \selectfont on input line 755.
-\CJK@indent=\box26
+\CJK@indent=\box30
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -372,24 +486,24 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count88
-\lst@gtempboxa=\box27
-\lst@token=\toks17
-\lst@length=\count89
-\lst@currlwidth=\dimen105
-\lst@column=\count90
-\lst@pos=\count91
-\lst@lostspace=\dimen106
-\lst@width=\dimen107
-\lst@newlines=\count92
-\lst@lineno=\count93
-\lst@maxwidth=\dimen108
+\lst@mode=\count98
+\lst@gtempboxa=\box31
+\lst@token=\toks24
+\lst@length=\count99
+\lst@currlwidth=\dimen139
+\lst@column=\count100
+\lst@pos=\count101
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count102
+\lst@lineno=\count103
+\lst@maxwidth=\dimen142
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count94
-\lst@skipnumbers=\count95
-\lst@framebox=\box28
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
+\lst@framebox=\box32
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -403,96 +517,103 @@ Package ifpdf Info: The package is already loaded, stopped on input line 64.
 d}{Unicode.sfd}) (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+Package xypdf Info: Line width: 0.39998pt on input line 11.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
-\scratchdimen=\dimen109
-\scratchbox=\box29
-\nofMPsegments=\count97
-\nofMParguments=\count98
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count99
-\MPscratchDim=\dimen110
-\MPnumerator=\count100
-\makeMPintoPDFobject=\count101
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count106
+\scratchdimen=\dimen143
+\scratchbox=\box33
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen144
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -537,7 +658,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count102
+\c@lstlisting=\count112
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2012/05/07 4.8.3
@@ -566,16 +687,22 @@ File: c70gbsn.fdx 2012/05/07 4.8.3
 LaTeX Font Warning: Font shape `C70/gbsn/m/sc' undefined
 (Font)              using `C70/gbsn/m/n' instead on input line 10.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
 [1
 
- <./images/university-logo.jpg>]) (./_abstract.tex [1]) (./chapters/chap1.tex [
-2] [3]) (./chapters/chap2.tex
+ <./images/university-logo.jpg>]) (./_abstract.tex [1] [2
+
+])
+(./chapters/chap1.tex [3
+
+] [4] <xymatrix 3x3 140>
+<./images/chap1-1.png, id=173, 540.0175pt x 437.635pt>
+File: ./images/chap1-1.png Graphic file (type png)
+
+<use ./images/chap1-1.png>
+Package pdftex.def Info: ./images/chap1-1.png used on input line 84.
+(pdftex.def)             Requested size: 288.0011pt x 233.40118pt.
+ [5] [6 <./images/chap1-1.png>])
+(./chapters/chap2.tex
 Overfull \hbox (33.28763pt too wide) in paragraph at lines 4--6
 \C70/gbsn/bx/n/10.95/67 , \C70/gbsn/bx/n/10.95/7c û \C70/gbsn/bx/n/10.95/7e ß \
 C70/gbsn/m/n/10.95/91 Ç \C70/gbsn/bx/n/10.95/75 ( \C70/gbsn/bx/n/10.95/4e † ^^@
@@ -587,142 +714,161 @@ C70/gbsn/bx/n/10.95/8b í \C70/gbsn/m/n/10.95/8a ^^@ \C70/gbsn/m/n/10.95/ff ^^L
 \OT1/cmr/m/n/10.95 SeaJS+NodeJS+MongoDB\C70/gbsn/bx/n/10.95/76 „
  []
 
-[4]
-Overfull \hbox (9.62341pt too wide) in paragraph at lines 24--26
+[7
+
+]
+Overfull \hbox (9.62341pt too wide) in paragraph at lines 34--36
 \OT1/cmr/m/n/10.95 Express.js\C70/gbsn/m/n/10.95/66 / \C70/gbsn/m/n/10.95/57 ú 
 \C70/gbsn/bx/n/10.95/4e Ž\OT1/cmr/m/n/10.95 NodeJS\C70/gbsn/m/n/10.95/ff ^^L \C
-70/gbsn/m/n/10.95/9a Ø \C70/gbsn/m/n/10.95/60 ' \C70/gbsn/bx/n/10.95/80 ý \C70/
-gbsn/m/n/10.95/30 ^^A \C70/gbsn/bx/n/10.95/4e ^^@ \C70/gbsn/m/n/10.95/6d A \C70
-/gbsn/bx/n/10.95/76 „\OT1/cmr/m/n/10.95 web\C70/gbsn/m/n/10.95/5f ^^@ \C70/gbsn
-/bx/n/10.95/53 Ñ \C70/gbsn/bx/n/10.95/68 F \C70/gbsn/bx/n/10.95/67 ¶ \C70/gbsn/
-m/n/10.95/ff ^^L \C70/gbsn/bx/n/10.95/5b ƒ \C70/gbsn/m/n/10.95/90 ^^Z \C70/gbsn
-/bx/n/10.95/8f Ç \C70/gbsn/bx/n/10.95/5b ù\OT1/cmr/m/n/10.95 NodeJS\C70/gbsn/bx
-/n/10.95/76 „
+70/gbsn/bx/n/10.95/9a Ø \C70/gbsn/bx/n/10.95/60 ' \C70/gbsn/bx/n/10.95/80 ý \C7
+0/gbsn/m/n/10.95/30 ^^A \C70/gbsn/bx/n/10.95/4e ^^@ \C70/gbsn/m/n/10.95/6d A \C
+70/gbsn/bx/n/10.95/76 „\OT1/cmr/m/n/10.95 web\C70/gbsn/bx/n/10.95/5f ^^@ \C70/g
+bsn/bx/n/10.95/53 Ñ \C70/gbsn/bx/n/10.95/68 F \C70/gbsn/bx/n/10.95/67 ¶ \C70/gb
+sn/m/n/10.95/ff ^^L \C70/gbsn/bx/n/10.95/5b ƒ \C70/gbsn/m/n/10.95/90 ^^Z \C70/g
+bsn/bx/n/10.95/8f Ç \C70/gbsn/bx/n/10.95/5b ù\OT1/cmr/m/n/10.95 NodeJS\C70/gbsn
+/bx/n/10.95/76 „
  []
 
-[5]
-Overfull \hbox (11.84883pt too wide) in paragraph at lines 43--44
+[8]
+Overfull \hbox (11.84883pt too wide) in paragraph at lines 53--54
 []\C70/gbsn/bx/n/10.95/4e û \C70/gbsn/bx/n/10.95/4f U \C70/gbsn/bx/n/10.95/59 '
  \C70/gbsn/bx/n/10.95/65 p \C70/gbsn/bx/n/10.95/63 n \C70/gbsn/bx/n/10.95/91 Ï 
 \C70/gbsn/bx/n/10.95/76 „\OT1/cmr/m/n/10.95 web\C70/gbsn/bx/n/10.95/7c û \C70/g
 bsn/bx/n/10.95/7e ß \C70/gbsn/bx/n/10.95/ff ^^L
  []
 
-) [6] (./chapters/chap3.tex [7] (./codes/express-model/createModel.js.tex
+[9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+ [10
+
+])
+(./chapters/chap3.tex (./codes/express-model/createModel.js.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+))
+(./codes/express-model/useModel.js.tex) (./codes/express-model/user.js.tex
+[11
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-)
-(./codes/express-model/useModel.js.tex) (./codes/express-model/user.js.tex)
-(./codes/express-model/groups.js.tex) (./codes/express-model/kan.js.tex
-[8
+]) (./codes/express-model/groups.js.tex) (./codes/express-model/kan.js.tex)
+[12] (./codes/express-model/issue.js.tex) [13]) (./chapters/chap4.tex [14
 
-]) (./codes/express-model/issue.js.tex)) (./chapters/chap4.tex [9])
-(./chapters/chap5.tex) (./chapters/chap6.tex [10]) (./chapters/chap7.tex)
-(./chapters/chap8.tex) [11] (./Main.aux)
+])
+(./chapters/chap5.tex [15
+
+]) (./chapters/chap6.tex [16
+
+]) (./chapters/chap7.tex
+[17
+
+]) (./chapters/chap8.tex [18
+
+]) [19
+
+] (./Main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7131 strings out of 493488
- 96055 string characters out of 3141326
- 176079 words of memory out of 3000000
- 9901 multiletter control sequences out of 15000+200000
- 70757 words of font info for 252 fonts, out of 3000000 for 9000
+ 9890 strings out of 493488
+ 130158 string characters out of 3141326
+ 247616 words of memory out of 3000000
+ 12580 multiletter control sequences out of 15000+200000
+ 72478 words of font info for 262 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,7n,49p,2412b,2839s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,13n,49p,3244b,2416s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2012/texmf-dist/fonts/
-type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
-arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
-/gbsnu/gbsnu55.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu
-/gbsnu56.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
-57.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5a.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
-/arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnu62.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsn
-u/gbsnu63.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
-u64.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/arphic/gbsnu/gbsnu6f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arph
-ic/gbsnu/gbsnu70.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbs
-nu/gbsnu71.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbs
-nu72.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
-e1/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arp
-hic/gbsnu/gbsnu7d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gb
-snu/gbsnu7e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gb
-snu7f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/local/texlive/2012/texmf-d
-ist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
-pe1/arphic/gbsnu/gbsnu8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/g
-bsnu/gbsnu8c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu8d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8e
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2012/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2012/texmf-dist/f
-onts/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu99.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/
-gbsnu/gbsnu9e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/
-gbsnuff.pfb>
-Output written on Main.pdf (12 pages, 719331 bytes).
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/a
+rphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/
+gbsnu/gbsnu55.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/
+gbsnu56.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5
+7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5a.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2012/texmf-dist/fonts/
+type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
+arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
+/gbsnu/gbsnu62.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu
+/gbsnu63.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
+64.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
+/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphi
+c/gbsnu/gbsnu6f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsn
+u/gbsnu70.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
+u71.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arph
+ic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbs
+nu/gbsnu7d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbs
+nu7e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7f.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arp
+hic/gbsnu/gbsnu8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu8b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gb
+snu8c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8e.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu99.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/g
+bsnu/gbsnu9a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/g
+bsnu9e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/xypic/xyatip10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
+Output written on Main.pdf (20 pages, 783249 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 495 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
