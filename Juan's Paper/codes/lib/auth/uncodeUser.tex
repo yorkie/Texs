@@ -1,0 +1,20 @@
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+/**
+ * uncode a user
+ */
+function uncode(user, fn) {
+  var __u_ = isExisted(user)
+  var pass = encodePassword(user)
+  if(!__u_) {
+    fn(new Error('cannot find user'))
+  }
+  hash(pass, __u_.salt, function(err, hash) {
+    if (err) return fn(err)
+    if (hash == __u_.hash) return fn(null, __u_)
+    fn(new Error('invalid password'))
+  })
+}
+\end{lstlisting}

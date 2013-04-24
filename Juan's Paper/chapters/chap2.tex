@@ -1,8 +1,30 @@
 % Chapter1 开发平台
 
+\subsection{B/S体系结构}
+\indent
+B/S体系结构与C/S体系结构相比，不仅具有其大部分优点，还有其不具备的优势
+\begin{description}
+  \item[开放的标准] B/S所采用的标准都是开放的、非专用的，是经过标准化组织所确定而非单一厂商所制定，保证了应用的通用性与跨平台性。
+  \item[开发/维护成本低] B/S应用只需在客户端安装通用的浏览器，维护和升级的工作都在服务端完成，不需要对客户端进行任何改变。
+\end{description}
+\indent
+由以上分析比较可看出，B/S模式具有更遥远的应用前景，它简化开发与维护流程，并适合在网络中发布信息、传播信息。
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=1\textwidth]{./images/bs-graph.png}
+  \caption{B/S三层结构图}
+\end{figure}
+
 \subsection{开发语言}
 \indent
-本系统采用了一些相对比较新潮的开发语言，使用了SeaJS+NodeJS+MongoDB的作为前后端架构，其优点是快速搭建，对前后端整合更有利。
+本系统采用了一些相对比较新潮的开发语言，如SeaJS、NodeJS以及MongoDB。其中NodeJS作为HTTP服务器平台，其优点是异步编程模型，使用了异步非阻塞(noblocking I/O)来处理复杂的并发Web请求。为了快速搭建web服务平台上的相关功能，我们选择使用了NodeJS平台上最流行的web开发框架Express，之所以选择它的原因是由于其灵巧的微内核设计方式与插件机制，可以很好地对框架本身的功能进行拓展。
+
+\indent
+数据库我们使用了新兴的mongoDB作为数据库服务器平台，它被誉为最接近SQL的NoSQL数据库，既不完全舍弃SQL的一些优秀设计理念，又能够使用NoSQL所带来的高效优势，并且在选择NodeJS客户端驱动时，我们选择了带有模式(Schema)设计的mongoose为主要客户端驱动，也是为了利用SQL的基本设计理论帮助我们保证数据与数据库的可维护性。
+
+\indent
+随着前端开发逐步走向工业化的道路，前端模块化会是影响web应用一个重要的因素，而我们使用SeaJS作为前端工业化平台，SeaJS所遵循的CMD规范与NodeJS的模块(Module)兼容性良好，关于前端模块化的详细内容将在后续章节详细说明。
 
 \subsubsection{系统开发环境及工具}
 \begin{tabular}{ l c }
@@ -14,7 +36,9 @@
   数据库 & MongoDB \\
 \end{tabular}
 
-\subsection{NodeJS的前世今生}
+\subsection{NodeJS}
+
+\subsubsection{NodeJS的前世今生}
 \indent
 NodeJS是一个可以快速构建网络服务及应用的平台。该平台的构建是基于Chrome's JavaScript runtime，也就是说，实际上它是对GoogleV8引擎进行了封装。
 
@@ -28,7 +52,24 @@ Node采用一系列“非阻塞”库来支持事件循环的方式。本质上�
 
 在Node启动的很短时间内，社区就已经贡献了大量的扩展库（模块）。其中很多是连接数据库或是其他软件的驱动，但还有很多是凭他们的实力制作出来的非常有用的软件。
 
-最后，不得不提到的是Node社区。虽然Node项目还非常年轻，但很少看到对一个项目如此狂热的社区。不管是新手，还是专家，大家都围绕着项目，使用并贡献自己的能力，致力于打造一个探索、支持、分享、听取建议的乐土。
+不得不提到的是Node社区。虽然Node项目还非常年轻，但很少看到对一个项目如此狂热的社区。不管是新手，还是专家，大家都围绕着项目，使用并贡献自己的能力，致力于打造一个探索、支持、分享、听取建议的乐土。
+
+\subsubsection{NodeJS的单线程}
+\indent
+NodeJS中的JavaScript在单线程上执行，但是作为宿主的NodeJS，它本身并非是单线程的，NodeJS在I/O方面动用到一小部分额外的线程协助实现异步。程序员没有机会直接创建线程，因此有人想当然的认为NodeJS的单线程无法很好的利用多核CPU。
+
+\indent
+NodeJS封装了内部的异步实现后，导致程序员无法直接操作线程，也就造成所有的业务逻辑运算都会丢到JavaScript的执行线程上，这也就意味着，在高并发请求的时候，I/O的问题是很好的解决了，但是所有的业务逻辑运算积少成多地都运行在JavaScript线程上，形成了一条拥挤的JavaScript运算线程。NodeJS的弱点在这个时候会暴露出来，单线程执行运算形成的瓶颈，拖慢了I/O的效率。这大概可以算得上是密集运算情况下无法很好利用多核CPU的缺点。这条拥挤的JavaScript线程，给I/O形成了性能上限。
+
+\indent
+事情又并非绝对的，NodeJS提供了child\_process.fork来创建Node的子进程。在一个Node进程就能很好的解决密集I/O的情况下，fork出来的其余Node子进程可以当作常驻服务来解决运算阻塞的问题（将运算分发到多个Node子进程中上去，与Apache创建多个子进程类似）。当然child\_process机制永远只能解决单台机器的问题，大的Web应用是不可能一台服务器就能完成所有的请求服务的。拜NodeJS在I/O上的优势，跨OS的多Node之间通信的是不算什么问题的。解决NodeJS的运算密集问题的答案其实也是非常简单的，就是将运算分发到多个CPU上。
+
+\subsubsection{基于事件的编程}
+\indent
+延续上一节的讨论。我们知道NodeJS具有异步的特性，从NodeJS的API设计中可以看出来，任何涉及I/O的操作，几乎都被设计成事件回调的形式，且大多数的类都继承自EventEmitter。这么做的好处有两个，一个是充分利用无阻塞I/O的特性，提高性能；另一个好处则是封装了底层的线程细节，通过事件消息留出业务的关注点给编程者，从而不用关注多线程编程里牵扯到的诸多技术细节。
+
+\indent
+事件式编程更贴近于现实生活，是更自然的，所以这种编程风格也导致你的代码跟你的生活一样，是一件复杂的事情。幸运的是，自己的生活要自己去面对，对于一个项目而言，并不需要每个人都去设计整个大业务逻辑，对于架构师而言，业务逻辑是明了的，借助事件式编程带来的业务逻辑松耦合的好处，在设定大框架后，将业务逻辑划分为适当的粒度，对每一个实现业务点的程序员而言，并没有这个痛苦存在。二八原则在这个地方非常有效。
 
 \subsection{Express.js——NodeJS平台上的Web框架}
 \indent
@@ -61,7 +102,6 @@ NoSQL 是非关系型数据存储的广义定义。它打破了长久以来关�
 \paragraph{MongoDB}
 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。他支持的数据结构非常松散，是类似json的bson格式，因此可以存储比较复杂的数据类型。Mongo最大的特点是他支持的查询语言非常强大，其语法有点类似于面向对象的查询语言，几乎可以实现类似关系数据库单表查询的绝大部分功能，而且还支持对数据建立索引。它的特点是高性能、易部署、易使用，存储数据非常方便。
 
-\clearpage
 \noindent
 主要功能特性有：
 \begin{itemize}
@@ -95,5 +135,15 @@ SeaJS的作者是淘宝前端工程师玉伯。\\
 \indent
 SeaJS本身遵循KISS（Keep It Simple, Stupid）理念进行开发，其本身仅有个位数的API，因此学习起来毫无压力。在学习SeaJS的过程中，处处能感受到KISS原则的精髓——仅做一件事，做好一件事。
 
+\textbf{RequireJS与SeaJS}
+\par
+RequireJS作为Javascript模块化开发中的前辈，与SeaJS都是模块加载器，倡导模块化开发理念，核心价值是让JavaScript的模块化开发变得简单自然。而二者的区别是：
+\begin{description}
+  \item[定位有差异] RequireJS 想成为浏览器端的模块加载器，同时也想成为 Rhino / Node 等环境的模块加载器。Sea.js 则专注于 Web 浏览器端，同时通过 Node 扩展的方式可以很方便跑在 Node 环境中
+  \item[遵循的规范不同] RequireJS 遵循 AMD（异步模块定义）规范，Sea.js 遵循 CMD （通用模块定义）规范。规范的不同，导致了两者 API 不同。Sea.js 更贴近 CommonJS Modules/1.1 和 Node Modules 规范。
+  \item[推广理念有差异] RequireJS 在尝试让第三方类库修改自身来支持 RequireJS，目前只有少数社区采纳。Sea.js 不强推，采用自主封装的方式来“海纳百川”，目前已有较成熟的封装策略
+  \item[对开发调试的支持有差异] Sea.js 非常关注代码的开发调试，有 nocache、debug 等用于调试的插件。RequireJS 无这方面的明显支持
+  \item[插件机制不同] RequireJS 采取的是在源码中预留接口的形式，插件类型比较单一。Sea.js 采取的是通用事件机制，插件类型更丰富。
+\end{description}
 
 \clearpage

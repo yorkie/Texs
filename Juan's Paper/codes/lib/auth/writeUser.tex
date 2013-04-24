@@ -1,0 +1,16 @@
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+/**
+ * ready workers
+ */
+function ready() {
+  db.collection('users').find().forEach(
+   function(user) {
+    utils.encode(user, function(err, user) {
+      users.add(user)
+    })
+  })
+}
+\end{lstlisting}

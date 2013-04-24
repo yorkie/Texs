@@ -1,0 +1,24 @@
+
+\lstset{language=lisp}
+
+\begin{lstlisting}[frame=single]
+doctype 5
+html
+  head
+    block Head
+      meta(name='viewport', 
+      	content='width=device-width, 
+      	initial-scale=1.5')
+      link(rel='stylesheet', 
+      	href='//stk.ikanbao.fm:3000/css/bootstrap.css')
+      title login
+      script
+        var ENV = {}
+  body
+    block Content
+      include header
+    script(src='/scripts/lib/sea.js')
+    script(src='/scripts/sea-config.js')
+    block Module
+      script(src='/scripts/index.js')
+\end{lstlisting}

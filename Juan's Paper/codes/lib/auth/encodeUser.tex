@@ -1,0 +1,18 @@
+
+\lstset{language=C}
+
+\begin{lstlisting}[frame=single]
+/**
+ * encode a user
+ */
+function encode(user, fn) {
+  hash(user.password, function(err, salt, hash) {
+    if (err) {
+      return fn(err, null)
+    }
+    user.salt = salt
+    user.hash = hash
+    fn(err, user)
+  })
+}
+\end{lstlisting}

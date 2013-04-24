@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 APR 2013 16:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 APR 2013 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -18,8 +18,8 @@ lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian,
 welsh, loaded.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -33,6 +33,13 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
@@ -482,8 +489,8 @@ LaTeX Info: Redefining \selectfont on input line 755.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/makeidx.sty
-Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count98
@@ -594,7 +601,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 11.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -674,7 +681,7 @@ File: ./images/university-logo.jpg Graphic file (type jpg)
 
 <use ./images/university-logo.jpg>
 Package pdftex.def Info: ./images/university-logo.jpg used on input line 8.
-(pdftex.def)             Requested size: 180.0pt x 181.50943pt.
+(pdftex.def)             Requested size: 195.0pt x 196.63538pt.
 LaTeX Font Info:    Try loading font information for C70+gbsn on input line 9.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
@@ -689,88 +696,173 @@ LaTeX Font Warning: Font shape `C70/gbsn/m/sc' undefined
 
 [1
 
- <./images/university-logo.jpg>]) (./_abstract.tex [1] [2
-
-])
+ <./images/university-logo.jpg>]) (./_abstract.tex [1] [2])
 (./chapters/chap1.tex [3
 
-] [4] <xymatrix 3x3 140>
-<./images/chap1-1.png, id=173, 540.0175pt x 437.635pt>
+] [4] [5] <xymatrix 3x3 140> [6]
+<./images/chap1-1.png, id=186, 540.0175pt x 437.635pt>
 File: ./images/chap1-1.png Graphic file (type png)
 
 <use ./images/chap1-1.png>
-Package pdftex.def Info: ./images/chap1-1.png used on input line 84.
-(pdftex.def)             Requested size: 288.0011pt x 233.40118pt.
- [5] [6 <./images/chap1-1.png>])
+Package pdftex.def Info: ./images/chap1-1.png used on input line 81.
+(pdftex.def)             Requested size: 312.00119pt x 252.85352pt.
+ [7
+
+ <./images/chap1-1.png>] [8])
 (./chapters/chap2.tex
-Overfull \hbox (33.28763pt too wide) in paragraph at lines 4--6
-\C70/gbsn/bx/n/10.95/67 , \C70/gbsn/bx/n/10.95/7c û \C70/gbsn/bx/n/10.95/7e ß \
-C70/gbsn/m/n/10.95/91 Ç \C70/gbsn/bx/n/10.95/75 ( \C70/gbsn/bx/n/10.95/4e † ^^@
- › \C70/gbsn/bx/n/10.95/76 ø \C70/gbsn/bx/n/10.95/5b ù \C70/gbsn/m/n/10.95/6b Ô
- \C70/gbsn/bx/n/10.95/8f ƒ \C70/gbsn/bx/n/10.95/65 ° \C70/gbsn/m/n/10.95/6f n \
-C70/gbsn/bx/n/10.95/76 „ \C70/gbsn/m/n/10.95/5f ^^@ \C70/gbsn/bx/n/10.95/53 Ñ \
-C70/gbsn/bx/n/10.95/8b í \C70/gbsn/m/n/10.95/8a ^^@ \C70/gbsn/m/n/10.95/ff ^^L 
-\C70/gbsn/bx/n/10.95/4f ^^? \C70/gbsn/bx/n/10.95/75 ( \C70/gbsn/bx/n/10.95/4e †
-\OT1/cmr/m/n/10.95 SeaJS+NodeJS+MongoDB\C70/gbsn/bx/n/10.95/76 „
+<./images/bs-graph.png, id=193, 588.1975pt x 149.55875pt>
+File: ./images/bs-graph.png Graphic file (type png)
+
+<use ./images/bs-graph.png>
+Package pdftex.def Info: ./images/bs-graph.png used on input line 15.
+(pdftex.def)             Requested size: 390.0pt x 99.16321pt.
+ [9
+
+ <./images/bs-graph.png>] [10] [11] [12] [13]
+Overfull \hbox (11.79391pt too wide) in paragraph at lines 75--77
+\T1/cmr/m/n/12 Express.js\C70/gbsn/m/n/12/66 / \C70/gbsn/bx/n/12/57 ú \C70/gbsn
+/bx/n/12/4e Ž\T1/cmr/m/n/12 NodeJS\C70/gbsn/m/n/12/ff ^^L \C70/gbsn/bx/n/12/9a 
+Ø \C70/gbsn/bx/n/12/60 ' \C70/gbsn/bx/n/12/80 ý \C70/gbsn/m/n/12/30 ^^A \C70/gb
+sn/bx/n/12/4e ^^@ \C70/gbsn/m/n/12/6d A \C70/gbsn/bx/n/12/76 „\T1/cmr/m/n/12 we
+b\C70/gbsn/bx/n/12/5f ^^@ \C70/gbsn/bx/n/12/53 Ñ \C70/gbsn/bx/n/12/68 F \C70/gb
+sn/bx/n/12/67 ¶ \C70/gbsn/m/n/12/ff ^^L \C70/gbsn/bx/n/12/5b ƒ \C70/gbsn/m/n/12
+/90 ^^Z \C70/gbsn/bx/n/12/8f Ç \C70/gbsn/bx/n/12/5b ù\T1/cmr/m/n/12 NodeJS\C70/
+gbsn/bx/n/12/76 „
  []
 
-[7
+[14] [15]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
 
-]
-Overfull \hbox (9.62341pt too wide) in paragraph at lines 34--36
-\OT1/cmr/m/n/10.95 Express.js\C70/gbsn/m/n/10.95/66 / \C70/gbsn/m/n/10.95/57 ú 
-\C70/gbsn/bx/n/10.95/4e Ž\OT1/cmr/m/n/10.95 NodeJS\C70/gbsn/m/n/10.95/ff ^^L \C
-70/gbsn/bx/n/10.95/9a Ø \C70/gbsn/bx/n/10.95/60 ' \C70/gbsn/bx/n/10.95/80 ý \C7
-0/gbsn/m/n/10.95/30 ^^A \C70/gbsn/bx/n/10.95/4e ^^@ \C70/gbsn/m/n/10.95/6d A \C
-70/gbsn/bx/n/10.95/76 „\OT1/cmr/m/n/10.95 web\C70/gbsn/bx/n/10.95/5f ^^@ \C70/g
-bsn/bx/n/10.95/53 Ñ \C70/gbsn/bx/n/10.95/68 F \C70/gbsn/bx/n/10.95/67 ¶ \C70/gb
-sn/m/n/10.95/ff ^^L \C70/gbsn/bx/n/10.95/5b ƒ \C70/gbsn/m/n/10.95/90 ^^Z \C70/g
-bsn/bx/n/10.95/8f Ç \C70/gbsn/bx/n/10.95/5b ù\OT1/cmr/m/n/10.95 NodeJS\C70/gbsn
-/bx/n/10.95/76 „
- []
-
-[8]
-Overfull \hbox (11.84883pt too wide) in paragraph at lines 53--54
-[]\C70/gbsn/bx/n/10.95/4e û \C70/gbsn/bx/n/10.95/4f U \C70/gbsn/bx/n/10.95/59 '
- \C70/gbsn/bx/n/10.95/65 p \C70/gbsn/bx/n/10.95/63 n \C70/gbsn/bx/n/10.95/91 Ï 
-\C70/gbsn/bx/n/10.95/76 „\OT1/cmr/m/n/10.95 web\C70/gbsn/bx/n/10.95/7c û \C70/g
-bsn/bx/n/10.95/7e ß \C70/gbsn/bx/n/10.95/ff ^^L
- []
-
-[9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
- [10
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
 
-])
-(./chapters/chap3.tex (./codes/express-model/createModel.js.tex
+[16] [17] [18]
+Overfull \hbox (13.4146pt too wide) in paragraph at lines 144--145
+[]\T1/cmr/m/n/12 RequireJS \C70/gbsn/bx/n/12/57 ( \C70/gbsn/bx/n/12/5c ^^] \C70
+/gbsn/bx/n/12/8b Õ © \C70/gbsn/m/n/12/7b , \C70/gbsn/bx/n/12/4e 	 \C70/gbsn/bx/
+n/12/65 ¹ \C70/gbsn/bx/n/12/7c { \C70/gbsn/bx/n/12/5e “ \C70/gbsn/bx/n/12/4f î 
+\C70/gbsn/bx/n/12/65 9 \C70/gbsn/bx/n/12/81 ê \C70/gbsn/m/n/12/8e « \C70/gbsn/b
+x/n/12/67 e \C70/gbsn/bx/n/12/65 / \C70/gbsn/bx/n/12/63 ^^A\T1/cmr/m/n/12 Requi
+reJS\C70/gbsn/bx/n/12/ff ^^L
+ []
+
+
+Overfull \hbox (22.68742pt too wide) in paragraph at lines 145--146
+[]\T1/cmr/m/n/12 Sea.js \C70/gbsn/bx/n/12/97 ^ \C70/gbsn/bx/n/12/5e 8 \C70/gbsn
+/bx/n/12/51 s \C70/gbsn/bx/n/12/6c è \C70/gbsn/bx/n/12/4e ã \C70/gbsn/m/n/12/78
+ ^^A \C70/gbsn/bx/n/12/76 „ \C70/gbsn/bx/n/12/5f ^^@ \C70/gbsn/bx/n/12/53 Ñ \C7
+0/gbsn/bx/n/12/8c ^^C \C70/gbsn/bx/n/12/8b Õ \C70/gbsn/bx/n/12/ff ^^L \C70/gbsn
+/bx/n/12/67 	\T1/cmr/m/n/12 nocache\C70/gbsn/m/n/12/30 ^^A\T1/cmr/m/n/12 debug
+ []
+
+[19]) (./chapters/chap3.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+(./codes/express-model/createModel.js.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-))
-(./codes/express-model/useModel.js.tex) (./codes/express-model/user.js.tex
-[11
-
-]) (./codes/express-model/groups.js.tex) (./codes/express-model/kan.js.tex)
-[12] (./codes/express-model/issue.js.tex) [13]) (./chapters/chap4.tex [14
+) [20
 
 ])
-(./chapters/chap5.tex [15
+(./codes/express-model/useModel.js.tex) (./codes/express-model/user.js.tex)
+[21] (./codes/express-model/groups.js.tex) (./codes/express-model/kan.js.tex
+[22]) (./codes/express-model/issue.js.tex) [23] [24]
+<./images/server-side-architecture.png, id=251, 657.45625pt x 494.84875pt>
+File: ./images/server-side-architecture.png Graphic file (type png)
 
-]) (./chapters/chap6.tex [16
+<use ./images/server-side-architecture.png>
+Package pdftex.def Info: ./images/server-side-architecture.png used on input li
+ne 142.
+(pdftex.def)             Requested size: 390.0pt x 293.5439pt.
+ [25 <./images/server-side-architecture.png>]) (./chapters/chap4.tex [26
 
-]) (./chapters/chap7.tex
-[17
+] [27] [28] [29]
+Overfull \hbox (21.56865pt too wide) in paragraph at lines 63--65
+\C70/gbsn/bx/n/12/57 ( \C70/gbsn/m/n/12/56 ý \C70/gbsn/bx/n/12/51 … \C70/gbsn/b
+x/n/12/76 „ \C70/gbsn/bx/n/12/5f ^^@ \C70/gbsn/bx/n/12/53 Ñ \C70/gbsn/bx/n/12/8
+0 ^^E \C70/gbsn/bx/n/12/67 e \C70/gbsn/bx/n/12/8b ô \C70/gbsn/bx/n/12/ff ^^L \C
+70/gbsn/bx/n/12/67 ^^@ \C70/gbsn/bx/n/12/53 ï \C70/gbsn/bx/n/12/60 ^^U \C70/gbs
+n/bx/n/12/76 „ \C70/gbsn/bx/n/12/5c 1 \C70/gbsn/bx/n/12/66 /\T1/cmr/m/n/12 IE\C
+70/gbsn/bx/n/12/51 | \C70/gbsn/bx/n/12/5b ¹ \C70/gbsn/m/n/12/95 î \C70/gbsn/bx/
+n/12/98 ˜ \C70/gbsn/m/n/12/30 ^^B \C70/gbsn/bx/n/12/76 î \C70/gbsn/bx/n/12/52 M
+\T1/cmr/m/n/12 Bootstrap\C70/gbsn/bx/n/12/5b ù\T1/cmr/m/n/12 IE6\C70/gbsn/bx/n/
+12/52 0\T1/cmr/m/n/12 IE8\C70/gbsn/bx/n/12/76 „
+ []
 
-]) (./chapters/chap8.tex [18
+(./codes/seajs/define.tex [30]) (./codes/seajs/use.tex) (./codes/chapters/1.tex
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)) [31]
+[32] (./codes/views/skeleton_jade.tex [33])
+(./codes/views/sidebarAndContent_jade.tex
+Overfull \hbox (3.7078pt too wide) in paragraph at lines 121--1
+\C70/gbsn/bx/n/12/4e ö \C70/gbsn/bx/n/12/ff ^^L \C70/gbsn/m/n/12/86 } \C70/gbsn
+/m/n/12/71 6 \C70/gbsn/bx/n/12/8b å \C70/gbsn/bx/n/12/65 ‡ \C70/gbsn/bx/n/12/4e
+ ö _ \C70/gbsn/bx/n/12/66 / \C70/gbsn/bx/n/12/57 ú \C70/gbsn/bx/n/12/4e Ž\T1/cm
+r/m/n/12 skeleton\C70/gbsn/bx/n/12/6a ! \C70/gbsn/bx/n/12/72 H \C70/gbsn/bx/n/1
+2/ff ^^L \C70/gbsn/bx/n/12/4e ^^M \C70/gbsn/bx/n/12/8f Ç \C70/gbsn/bx/n/12/5b ƒ
+ \C70/gbsn/bx/n/12/4e ì \C70/gbsn/bx/n/12/76 „ \C70/gbsn/bx/n/12/75 ( \C70/gbsn
+/bx/n/12/59 ^^D \C70/gbsn/bx/n/12/54 ^^D \C70/gbsn/bx/n/12/4e ^^M \C70/gbsn/bx/
+n/12/76 ø \C70/gbsn/bx/n/12/54 ^^L \C70/gbsn/bx/n/12/ff ^^L\T1/cmr/m/n/12 sideb
+ar-
+ []
 
-]) [19
+) <./images/client-side-architecture.png, id=284, 682.55pt x 337.26pt>
+File: ./images/client-side-architecture.png Graphic file (type png)
+
+<use ./images/client-side-architecture.png>
+Package pdftex.def Info: ./images/client-side-architecture.png used on input li
+ne 130.
+(pdftex.def)             Requested size: 390.0pt x 192.7085pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35 <./images/client-side-architecture.png>]) (./chapters/chap5.tex
+(./codes/lib/auth/pass.js.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [36
+
+] [37]) (./codes/lib/auth/encodeUser.tex
+[38]) [39] (./codes/lib/auth/uncodeUser.tex) [40
+
+]
+(./codes/lib/auth/writeUser.tex) (./codes/lib/auth/authUser.tex) [41
+
+]
+<./images/data-stream-graph.png, id=311, 477.785pt x 356.33125pt>
+File: ./images/data-stream-graph.png Graphic file (type png)
+
+<use ./images/data-stream-graph.png>
+Package pdftex.def Info: ./images/data-stream-graph.png used on input line 46.
+(pdftex.def)             Requested size: 312.00119pt x 232.68912pt.
+ [42 <./images/data-stream-graph.png>]
+(./codes/swfupload/load.tex)
+Overfull \hbox (9.14328pt too wide) in paragraph at lines 68--69
+[]\C70/gbsn/bx/n/12/57 (\T1/cmr/m/n/12 swfupload\C70/gbsn/bx/n/12/8f } \C70/gbs
+n/bx/n/12/51 e \C70/gbsn/bx/n/12/54 ^^N \C70/gbsn/bx/n/12/89 æ \C70/gbsn/bx/n/1
+2/53 Ñ \C70/gbsn/bx/n/12/ff ^^L \C70/gbsn/bx/n/12/90 ^^Z \C70/gbsn/bx/n/12/5e 8
+ \C70/gbsn/bx/n/12/75 ( \C70/gbsn/bx/n/12/67 e \C70/gbsn/bx/n/12/5b ù\T1/cmr/m/
+n/12 UI\C70/gbsn/bx/n/12/8f Û
+ []
+
+[43] (./codes/swfupload/file_dialog_complete_handler.tex) [44] [45] [46])
+(./chapters/chap8.tex [47
+
+] [48]) [49
 
 ] (./Main.aux)
 
@@ -778,97 +870,104 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9890 strings out of 493488
- 130158 string characters out of 3141326
- 247616 words of memory out of 3000000
- 12580 multiletter control sequences out of 15000+200000
- 72478 words of font info for 262 fonts, out of 3000000 for 9000
+ 11021 strings out of 493488
+ 146176 string characters out of 3141326
+ 245009 words of memory out of 3000000
+ 13632 multiletter control sequences out of 15000+200000
+ 77029 words of font info for 259 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,13n,49p,3244b,2416s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2012/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2012/texmf-dist/f
-onts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/
-gbsnu/gbsnu55.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/
-gbsnu56.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5
-7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5a.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2012/texmf-dist/fonts/
-type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
-arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
-/gbsnu/gbsnu62.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu
-/gbsnu63.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
-64.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
-/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnu6f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsn
-u/gbsnu70.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
-u71.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arph
-ic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbs
-nu/gbsnu7d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbs
-nu7e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7f.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
-e1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arp
-hic/gbsnu/gbsnu8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gb
-snu/gbsnu8b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gb
-snu8c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8e.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2012/texmf-d
-ist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
-pe1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu99.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/g
-bsnu/gbsnu9a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu9e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/xypic/xyatip10.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
-Output written on Main.pdf (20 pages, 783249 bytes).
+ 38i,13n,49p,3244b,3138s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu55.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/g
+bsnu/gbsnu56.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/g
+bsnu57.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5a.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/a
+rphic/gbsnu/gbsnu62.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/
+gbsnu/gbsnu63.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/
+gbsnu64.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6
+5.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2012/texmf-dist/fonts/
+type1/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
+arphic/gbsnu/gbsnu6f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic
+/gbsnu/gbsnu70.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu
+/gbsnu71.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
+72.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
+/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphi
+c/gbsnu/gbsnu7d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsn
+u/gbsnu7e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
+u7f.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu87.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/arphic/gbsnu/gbsnu8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arph
+ic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbs
+nu/gbsnu8c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbs
+nu8d.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8e.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu94.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/arphic/gbsnu/gbsnu99.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arp
+hic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu9c.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gb
+snu9e.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9f.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/xypic/xyatip10.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
+Output written on Main.pdf (50 pages, 1148501 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
+ 623 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,11 +1,11 @@
 % Start Paper
 
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[all]{xy}
 \usepackage[pdftex]{graphicx}
-\usepackage{CJKutf8, makeidx, listings}
-
+\usepackage{CJKutf8, setspace, listings}
 \AtBeginDvi{\input{zhwinfonts}}
 
 \begin{document}
@@ -14,15 +14,23 @@
 % 命令
 \renewcommand{\abstractname}{摘要}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-\linespread{2.0}
+\setcounter{tocdepth}{2}
 
+% Title
 \input{./_titlepage.tex}
 
 % 摘要
+\begin{spacing}{2.0}
 \begin{abstract}
 	\input{./_abstract.tex}
 \end{abstract}
+\end{spacing}
 
+\begin{spacing}{2.0}
+	%\tableofcontents\clearpage
+\end{spacing}
+
+\begin{spacing}{1.8}
 % 第一章 背景
 \section{背景与意义}
 \input{./chapters/chap1.tex}
@@ -44,21 +52,28 @@
 \input{./chapters/chap5.tex}
 
 % 第六章 核心功能实现
-\section{核心功能实现}
-\input{./chapters/chap6.tex}
+% \section{核心功能实现}
+% \input{./chapters/chap6.tex}
 
 % 第七章 性能测试与分析
-\section{性能测试与分析}
-\input{./chapters/chap7.tex}
+% \section{性能测试与分析}
+% \input{./chapters/chap7.tex}
 
 % 第八章 总结
 \section{总结}
 \input{./chapters/chap8.tex}
 
+\end{spacing}
+
 % 致谢
+\begin{spacing}{1.7}
 \section{致谢}
-\indent
-Occupation
+首先，我要感谢我的指导老师——吴云老师，本文的研究工作是在他的悉心指导下完成的，在本科学习期间，吴老师付出了大量的心血，和宝贵的时间，在学业上、工作上给予了我莫大的帮助。他严谨的治学态度，勤奋朴实的工作作风，广博的知识，使我于耳濡目染中获益，这些使我今后人生道路上一笔宝贵的财富。
+
+感谢与我朝夕相处的同学们、好友们，四年的学习生活离不开他们的关心与照顾，愿我们友谊长存。
+
+最后，对在百忙之中审阅论文的各位老师和专家表示衷心地感谢，恳请各位老师多多批评指正，并多多提出宝贵的意见与建议。
+\end{spacing}
 
 \end{CJK*}
 \end{document}
