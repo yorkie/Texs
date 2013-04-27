@@ -1,0 +1,59 @@
+\contentsline {section}{\numberline {1}背景与意义}{4}
+\contentsline {subsection}{\numberline {1.1}背景}{4}
+\contentsline {paragraph}{问题描述}{4}
+\contentsline {subsection}{\numberline {1.2}需求及系统功能分析}{5}
+\contentsline {subsubsection}{\numberline {1.2.1}目标用户}{5}
+\contentsline {subsubsection}{\numberline {1.2.2}需求分析}{5}
+\contentsline {paragraph}{企业级用户}{5}
+\contentsline {paragraph}{个人用户}{6}
+\contentsline {subsubsection}{\numberline {1.2.3}功能分析}{6}
+\contentsline {paragraph}{数字报刊发布}{6}
+\contentsline {paragraph}{数字报阅读平台}{6}
+\contentsline {paragraph}{数据统计平台}{6}
+\contentsline {subsubsection}{\numberline {1.2.4}性能需求}{6}
+\contentsline {subsection}{\numberline {1.3}小结}{7}
+\contentsline {section}{\numberline {2}开发平台介绍}{10}
+\contentsline {subsection}{\numberline {2.1}B/S体系结构}{10}
+\contentsline {subsection}{\numberline {2.2}开发语言}{10}
+\contentsline {subsubsection}{\numberline {2.2.1}系统开发环境及工具}{11}
+\contentsline {subsection}{\numberline {2.3}NodeJS}{12}
+\contentsline {subsubsection}{\numberline {2.3.1}NodeJS的前世今生}{12}
+\contentsline {subsubsection}{\numberline {2.3.2}NodeJS的单线程}{13}
+\contentsline {subsubsection}{\numberline {2.3.3}基于事件的编程}{14}
+\contentsline {subsection}{\numberline {2.4}Express.js——NodeJS平台上的Web框架}{15}
+\contentsline {subsection}{\numberline {2.5}NoSQL与MongoDB}{15}
+\contentsline {paragraph}{MongoDB}{17}
+\contentsline {subsection}{\numberline {2.6}SeaJS前端平台}{19}
+
+\contentsline {section}{\numberline {3}服务端架构}{21}
+\contentsline {subsection}{\numberline {3.1}模块对象设计}{21}
+\contentsline {subsubsection}{\numberline {3.1.1}express-model}{21}
+\contentsline {subsubsection}{\numberline {3.1.2}user.js}{22}
+\contentsline {subsubsection}{\numberline {3.1.3}groups.js}{23}
+\contentsline {subsubsection}{\numberline {3.1.4}kan.js}{23}
+\contentsline {subsubsection}{\numberline {3.1.5}issue.js}{24}
+\contentsline {subsection}{\numberline {3.2}数据库设计}{24}
+\contentsline {subsection}{\numberline {3.3}服务端架构图}{26}
+
+\contentsline {section}{\numberline {4}前端架构细节}{27}
+\contentsline {subsection}{\numberline {4.1}模块化的前端开发}{27}
+\contentsline {subsection}{\numberline {4.2}前端UI库——bootstrap.js}{30}
+\contentsline {subsection}{\numberline {4.3}前端模块架构}{34}
+\contentsline {subsubsection}{\numberline {4.3.1}初始化Javascript模块}{35}
+\contentsline {subsubsection}{\numberline {4.3.2}视图}{36}
+\contentsline {subsection}{\numberline {4.4}前端架构图}{38}
+
+\contentsline {section}{\numberline {5}系统功能实现}{42}
+\contentsline {subsection}{\numberline {5.1}用户/组}{42}
+\contentsline {subsubsection}{\numberline {5.1.1}用户认证}{42}
+\contentsline {subsection}{\numberline {5.2}报刊发布平台}{46}
+\contentsline {subsubsection}{\numberline {5.2.1}PDF上传组件}{47}
+\contentsline {paragraph}{与seajs兼容}{47}
+\contentsline {paragraph}{客户端实现}{47}
+\contentsline {paragraph}{服务端实现}{49}
+\contentsline {subsection}{\numberline {5.3}在线阅读平台}{49}
+\contentsline {subsubsection}{\numberline {5.3.1}主刊}{49}
+\contentsline {subsubsection}{\numberline {5.3.2}副刊}{49}
+\contentsline {paragraph}{pdf.js}{50}
+\contentsline {section}{\numberline {6}总结}{51}
+\contentsline {section}{\numberline {7}致谢}{52}
