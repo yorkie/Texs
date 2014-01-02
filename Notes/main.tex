@@ -1,1 +1,43 @@
-// TODO
+% Start Paper
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[all]{xy}
+\usepackage[pdftex]{graphicx}
+\usepackage{CJKutf8, setspace, listings}
+\AtBeginDvi{\input{zhwinfonts}}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}
+
+% 命令
+\renewcommand{\abstractname}{摘要}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{tocdepth}{3}
+
+% Title
+\input{./_titlepage.tex}
+
+% 摘要
+\begin{spacing}{2.0}
+\begin{abstract}
+        \input{./_abstract.tex}
+\end{abstract}
+\end{spacing}
+
+\begin{spacing}{2.0}
+        \tableofcontents\clearpage
+\end{spacing}
+
+\begin{spacing}{1.8}
+% clang
+\section{C && C++}
+\input{./chapters/chap1.tex}
+
+
+\end{spacing}
+\end{CJK*}
+\end{document}
+
+% End Paper
